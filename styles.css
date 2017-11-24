@@ -1,0 +1,432 @@
+body {}
+
+.main_container {
+  min-width: 960px !important;
+}
+
+#message h4 {
+  padding: 10px;
+}
+
+h1.panel-title {
+  font-size: 36px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.marginRight3 {
+  margin-right: 3px;
+}
+
+.marginRight10 {
+  margin-right: 10px;
+}
+
+.marginLeft0 {
+  margin-left: 0px;
+}
+
+.marginLeft5 {
+  margin-left: 5px;
+}
+
+.marginLeft10 {
+  margin-left: 10px;
+}
+
+.marginLeft20 {
+  margin-left: 20px;
+}
+
+.marginLeft25 {
+  margin-left: 25px;
+}
+
+.marginLeft50 {
+  margin-left: 50px;
+}
+
+.marginTop0 {
+  margin-top: 0;
+}
+
+.marginTop2 {
+  margin-top: 2px;
+}
+
+.marginTop3 {
+  margin-top: 3px;
+}
+
+.marginTop5 {
+  margin-top: 5px;
+}
+
+.marginTop10 {
+  margin-top: 10px;
+}
+
+.marginTop15 {
+  margin-top: 15px;
+}
+
+.marginTop20 {
+  margin-top: 20px
+}
+
+.marginBottom0 {
+  margin-bottom: 0;
+}
+
+.marginBottom5 {
+  margin-bottom: 5px;
+}
+
+.marginBottom10 {
+  margin-bottom: 10px;
+}
+
+.marginBottom20 {
+  margin-bottom: 20px;
+}
+
+.marginBottom40 {
+  margin-bottom: 40px;
+}
+
+.padding5 {
+  padding: 5px;
+}
+
+.padding10 {
+  padding: 10px;
+}
+
+.paddingLeft10 {
+  padding-left: 10px;
+}
+
+.paddingLeft20 {
+  padding-left: 20px;
+}
+
+.paddingLeft25 {
+  padding-left: 25px;
+}
+
+.paddingLeft50 {
+  padding-left: 50px;
+}
+
+.paddingTop5 {
+  padding-top: 5px;
+}
+
+.paddingTop10 {
+  padding-top: 10px;
+}
+
+.paddingTop20 {
+  padding-top: 20px;
+}
+
+.paddingBottom5 {
+  padding-bottom: 5px;
+}
+
+.paddingBottom10 {
+  padding-bottom: 10px;
+}
+
+.paddingBottom20 {
+  padding-bottom: 20px;
+}
+
+.paddingBottom40 {
+  padding-bottom: 40px;
+}
+
+.paddingRight5 {
+  padding-right: 5px;
+}
+
+
+/* #Font Size
+================================================== */
+
+.fontSize10 {
+  font-size: 10px;
+}
+
+.fontSize12 {
+  font-size: 12px;
+}
+
+.fontSize14 {
+  font-size: 14px;
+}
+
+.fontSize16 {
+  font-size: 16px;
+}
+
+.subText {
+  color: #5c5c5c;
+  vertical-align: top;
+  font-size: 11px
+}
+
+
+/* #Font Weight
+================================================== */
+
+.normalText {
+  font-weight: normal;
+}
+
+.boldText {
+  font-weight: 700;
+}
+
+.redText {
+  color: #C00;
+}
+
+.blueText {
+  color: #06C;
+}
+
+.greenText {
+  color: #009900;
+}
+
+
+/* #Display
+================================================== */
+
+.inlineBlock {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+.noDisplay {
+  display: none
+}
+
+.displayBlock {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.table {
+  display: table;
+}
+
+.tableCell {
+  display: table-cell;
+}
+
+.container .noDisplayBase {
+  display: none;
+}
+
+
+/* #Position
+================================================== */
+
+.staticPosition {
+  position: static;
+}
+
+.positionRelative {
+  position: relative;
+}
+
+.top-5 {
+  top: -5px;
+}
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.boxBorder {
+  border: 1px solid;
+  border-color: #c0c0c0;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.backgroundgrey {
+  background-color: #f0f0f0;
+}
+
+.backgroundBlue {
+  background-color: #069;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.required:before {
+  content: "*";
+  color: red;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.navbar-nav {
+  padding-top: 15px;
+}
+
+
+/*.navbar-right {
+  margin-right: 0px;
+}*/
+
+.container-fluid {
+  background-color: #5EACE8;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FFF;
+}
+
+
+/* Errors */
+
+.topLeftErrorCorner,
+.topRightErrorCorner,
+.bottomLeftErrorCorner,
+.bottomRightErrorCorner {
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  display: block;
+}
+
+.topLeftErrorCorner {
+  background: url(../images/topLeftErrorCorner.png) top left no-repeat;
+  top: -2px;
+  left: -2px;
+}
+
+.topRightErrorCorner {
+  background: url(../images/topRightErrorCorner.png) top right no-repeat;
+  top: -2px;
+  right: -2px;
+}
+
+.bottomLeftErrorCorner {
+  background: url(../images/bottomLeftErrorCorner.png) bottom left no-repeat;
+  bottom: -2px;
+  left: -2px;
+}
+
+
+/* Star Html hack for IE 6 */
+
+* html .bottomLeftErrorCorner {
+  bottom: -3px;
+}
+
+.bottomRightErrorCorner {
+  background: url(../images/bottomRightErrorCorner.png) bottom right no-repeat;
+  bottom: -2px;
+  right: -2px;
+}
+
+
+/* Star Html hack for IE 6 */
+
+* html .bottomRightErrorCorner {
+  bottom: -3px;
+}
+
+
+/* Alert Corners for IE --------------------------------------------------------------*/
+
+.topLeftAlertCorner,
+.topRightAlertCorner,
+.bottomLeftAlertCorner,
+.bottomRightAlertCorner {
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  display: block;
+}
+
+.topLeftAlertCorner {
+  background: url(../images/topLeftAlertCorner.png) top left no-repeat;
+  top: -2px;
+  left: -2px;
+}
+
+.topRightAlertCorner {
+  background: url(../images/topRightAlertCorner.png) top right no-repeat;
+  top: -2px;
+  right: -2px;
+}
+
+.bottomLeftAlertCorner {
+  background: url(../images/bottomLeftAlertCorner.png) bottom left no-repeat;
+  bottom: -2px;
+  left: -2px;
+}
+
+
+/* Star Html hack for IE 6 */
+
+* html .bottomLeftAlertCorner {
+  bottom: -3px;
+}
+
+.bottomRightAlertCorner {
+  background: url(../images/bottomRightAlertCorner.png) bottom right no-repeat;
+  bottom: -2px;
+  right: -2px;
+}
+
+div.errorBlockTemp {
+  background-image: url(../images/Error-Icon.gif);
+  background-repeat: no-repeat;
+  background-position: 7px 50%;
+}
+
+
+/* height:1%; is for IE 6 */
+
+div.errorBlockTemp div {
+  font-weight: bold;
+  position: relative;
+  height: 1%;
+  border: 2px solid #BF0000;
+  padding: 10px 10px 10px 50px;
+  margin: 10px 0;
+  color: #BF0000;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.errorField {
+  border: 1px solid #BF0000;
+  padding: 2px;
+}
+
+ol > ul {
+  padding-left: 20px;
+}
+
+button {
+  height: 36px;
+}

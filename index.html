@@ -1,0 +1,97 @@
+<form id="patientRegistration" name="patientRegistration" action="registration.cfm" method="POST">
+  <table width="90%" border="0" cellpadding="15px" cellspacing="2" align="center" class="marginLeft25">
+    <tr>
+      <td colspan="2">
+        <h3>Patient Information</h3>
+        <hr style="color:##006699" />
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <label for="firstName" class="required boldText">First Name</label>
+        <input id="firstName" name="firstName" type="text" autocomplete="off">
+      </td>
+      <td>
+        <label for="lastName" class="required boldText">Last Name</label>
+        <input id="lastName" name="lastName" type="text" autocomplete="off">
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="2">
+        <label for="under18" class="boldText inlineBlock">Are you under 18 years old?</label>
+        <input type="radio" name="under18" value="Yes" class="paddingLeft25 inlineBlock"> Yes
+        <input type="radio" name="under18" value="No" class="paddingLeft10 inlineBlock"> No
+      </td>
+    </tr>
+
+    <tr class="js-guardianInfo">
+      <td>
+        <label for="guardianFirstName" class="required boldText">Parent/Guardian First Name</label>
+        <input id="guardianFirstName" name="guardianFirstName" type="text" autocomplete="off">
+      </td>
+      <td>
+        <label for="guardianLastName" class="required boldText">Parent/Guardian Last Name</label>
+        <input id="guardianLastName" name="guardianLastName" type="text" autocomplete="off">
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <label for="address" class="required boldText">Address</label>
+        <input id="address" name="address" type="text" placeholder="123 Park Way" autocomplete="off">
+      </td>
+      <td>
+        <label for="address2" class="boldText">Address 2</label>
+        <input id="address2" name="address2" type="text" placeholder="Apt, suite #" autocomplete="off">
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <label for="city" class="required boldText">City</label>
+        <input id="city" name="city" type="text" autocomplete="off">
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <label for="zipcode" class="required boldText">Zip Code/ Postal Code</label>
+        <input id="zipcode" name="zipcode" type="text" maxlength="6" autocomplete="off">
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="2">
+        <label for="telephone" class="required boldText">Telephone</label>
+        <input id="telephone" name="telephone" type="text" placeholder="1234567890" autocomplete="off" maxlength="10">
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <label for="dob" class="required boldText">Date of Birth</label>
+        <input id="dob" name="dob" type="text" placeholder="mm/dd/yyyy" autocomplete="off">
+      </td>
+      <td>
+        <label for="email" class="boldText">Email Address</label>
+        <input id="email" name="email" type="text" placeholder="abc@def.com" autocomplete="off">
+      </td>
+      </tr>
+      
+      <tr>
+      <td colspan="2">
+        <hr style="color:##006699" />
+        <button id="clearPatientInfo" type="button" class="pull-left" onClick="clearRequestForm();"><span class="fa fa-refresh fa-lg"> Clear </button>
+        <button id="submitPatientInfo" type="button" class="pull-right button" onClick="validateRequestForm();"><span class="fa fa-sign-in fa-lg"> Submit </button>
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="2" align="center">
+        <p id="message" class="hidden fontsize16"></p>
+      </td>
+    </tr>
+  </table>
+</form>
